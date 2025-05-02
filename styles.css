@@ -23,7 +23,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .card {
@@ -33,14 +32,14 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-    width: 320px;
+    width: 288px;
     border-radius: 20px;
 }
 
 .card__image {
     width: 288px;
     height: 288px;
-    margin: auto;
+    margin: 0;
     border-radius: 10px;
 }
 
@@ -50,7 +49,7 @@
 
 .card__title {
     color: var(--slate-900);
-    margin: 0 16px;
+    margin: 0;
     font-family: 'Outfit Bold';
     font-size: 22px;
     line-height: 120%;
@@ -60,7 +59,7 @@
 
 .card__text {
     color: var(--slate-500);
-    margin: 16px 16px 0;
+    margin: 16px 0 0;
     font-family: 'Outfit Regular';
     font-size: 15px;
     line-height: 140%;
