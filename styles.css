@@ -59,7 +59,7 @@
 
 .card__text {
     color: var(--slate-500);
-    margin: 16px 0 0;
+    margin: 16px 0;
     font-family: 'Outfit Regular';
     font-size: 15px;
     line-height: 140%;
